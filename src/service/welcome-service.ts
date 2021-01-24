@@ -4,5 +4,5 @@ class WelcomeService {
     }
 }
 
-const welcomeService: WelcomeService = new WelcomeService();
-export { welcomeService };
+const instance: WelcomeService = new WelcomeService();
+export { instance as welcomeService };
